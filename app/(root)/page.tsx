@@ -1,4 +1,3 @@
-import Landing from "@/components/main/landing";
 import Navbar from "@/components/navbar";
 import { ThemeToggle } from "@/components/theme-toggle";
 import Container from "@/components/ui/container";
