@@ -5,6 +5,9 @@ import { ToastProvider } from '@/providers/toast-provider'
 import { ThemeProvider } from '@/providers/theme-provider'
 
 import './globals.css'
+import Navbar from '@/components/navbar'
+import Footer from '@/components/footer'
+import { LampDemo } from '@/components/ui/lamp'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -28,7 +31,10 @@ export default async function RootLayout({
             enableSystem
           >
             <ToastProvider />
+            <Navbar />
+            <LampDemo />
             {children}
+            <Footer />
           </ThemeProvider>
         </body>
       </html>

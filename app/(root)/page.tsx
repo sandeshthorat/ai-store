@@ -8,21 +8,17 @@ import Link from "next/link";
 const root = () => {
     return (
 
-        <div className="p-4  justify-center">
-            <div className="border-b">
+        <div className="h-full w-full p-4  justify-center">
                 <Container>
-                    <div className="flex h-16 items-center px-4">
-                        <Link href="/" className="ml-4 flex lg:ml-0 gap-x-2">
-                            <h1 className="whitespace-pre text-3xl font-bold mr-10 ">AI STORE</h1>
-                        </Link>
-                        <Navbar />  
-                        <div className="ml-auto flex items-center space-x-4 ">
-                            <ThemeToggle />
-                            <UserButton afterSignOutUrl="/" />
+                    <div className="space-y-10 h-screen">
+                        Sandesh 
+                        {/* <Billboard data={billboard} /> */}
+                        <div className="flex flex-col gap-y-8 px-4 sm:px-6 lg:px-8">
+                            Thorat
+                            {/* <ProductList title="Featured products" items={products} /> */}
                         </div>
                     </div>
                 </Container>
-            </div>
         </div>
 
 
