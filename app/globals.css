@@ -41,7 +41,10 @@ body,
 
     --radius: 0.5rem;
   }
-
+  .__className_4ec763 {
+    font-family: __Space_Grotesk_4ec763,__Space_Grotesk_Fallback_4ec763;
+    font-style: normal;
+}
   .dark {
     --background: 240 10% 3.9%;
     --foreground: 0 0% 98%;

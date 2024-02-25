@@ -8,6 +8,8 @@ import './globals.css'
 import Navbar from '@/components/navbar'
 import Footer from '@/components/footer'
 import { LampDemo } from '@/components/ui/lamp'
+import { TopInfo } from '@/components/ui/top-info'
+import { DevInfo } from '@/components/ui/dev-info'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -32,6 +34,7 @@ export default async function RootLayout({
           >
             <ToastProvider />
             <Navbar />
+            {/* <TopInfo/> */}
             <LampDemo />
             {children}
             <Footer />
