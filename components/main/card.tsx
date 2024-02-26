@@ -8,7 +8,7 @@ import {
 
 export function Card() {
   return (
-    <div className="flex items-center justify-center  h-[20rem] rounded-2xl w-full -translate-y-[4rem] ml-[120px] ">
+    <div className="flex items-center justify-center  h-[20rem] rounded-2xl min-w-screen -translate-y-[4rem] ml-[100px] ">
       <TextRevealCard
         text="You know the business"
         revealText="I know the chemistry "
