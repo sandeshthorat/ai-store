@@ -12,7 +12,7 @@ const root = () => {
     return (
         <>
             <div>
-                <TopInfo />
+                {/* <TopInfo /> */}
                 <LampDemo />
 
             </div>

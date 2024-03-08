@@ -1,9 +1,11 @@
 import { GridBackground } from "@/components/main/background";
+import { TopInfo } from "@/components/ui/top-info";
 
 const Home = () => {
     return ( 
         <div>
-            <GridBackground />
+            
+            <TopInfo />
         </div>
      );
 }
