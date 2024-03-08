@@ -3,6 +3,7 @@ import Navbar from "@/components/navbar";
 import { ThemeToggle } from "@/components/theme-toggle";
 import Container from "@/components/ui/container";
 import { LampDemo } from "@/components/ui/lamp";
+import { TopInfo } from "@/components/ui/top-info";
 import { UserButton } from "@clerk/nextjs";
 import Link from "next/link";
 
@@ -11,6 +12,7 @@ const root = () => {
     return (
         <>
             <div>
+                <TopInfo />
                 <LampDemo />
 
             </div>
