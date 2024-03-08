@@ -33,7 +33,7 @@ export default async function RootLayout({
             defaultTheme="system"
             enableSystem
           >
-            <ToastProvider />s
+            <ToastProvider />
             <Navbar />
             {/* <TopInfo/> */}
             {children}
