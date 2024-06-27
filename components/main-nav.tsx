@@ -14,19 +14,25 @@ export function MainNav({
 
     const routes = [
         {
-            href: `/${params.storeId}`,
+            href: `/home`,
             label: 'Home',
-            active: pathname === `/${params.storeId}`,
+            active: pathname === `/home`,
         },
+        // {
+        //     href: `/${params.storeId}`,
+        //     label: 'Home',
+        //     active: pathname === `/${params.storeId}`,
+        // },
         {
-            href: `/${params.storeId}/billboards`,
+            href: `/add`,
+            // href: `/${params.storeId}/billboards`,
             label: 'Add A Tool',
-            active: pathname === `/${params.storeId}/add`,
+            active: pathname === `/add`,
         },
         {
-            href: `/${params.storeId}/settings`,
+            href: `/settings`,
             label: 'Settings',
-            active: pathname === `/${params.storeId}/settings`,
+            active: pathname === `/settings`,
         },
     ];
 
